@@ -25,7 +25,7 @@ from store import views
 
 
 urlpatterns = [
-    path('store/', include('store.urls')),
+    path('', include('store.urls')),
     path('admin/', admin.site.urls),
 
     ]
